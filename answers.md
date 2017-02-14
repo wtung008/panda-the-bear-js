@@ -8,3 +8,4 @@
 7. $("h1").css("font-family", "monospace")
 8. $(".action-icon-bg").css("background-color", "orange")
 9. $("form input#name").attr("placeholder", "identify yourself")
+10. $("form textarea#message").attr("placeholder", "state your business")
