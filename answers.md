@@ -2,3 +2,4 @@
 1b. $("#left-image img").attr("src", "http://lorempixel.com/output/nature-q-c-325-225-8.jpg")
 2. $("h1.highlight").text("Spot the Dog")
 3. $("#employment .info-title").text("Travel")
+4. $("#time-travel").parent().remove()
