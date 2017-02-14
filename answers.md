@@ -12,3 +12,5 @@
 11. $("span.bio-info-value.bio-info-name").text("your nemesis")
 12. $("p.action-icon-text").last().text("koalathebear@gmail.com")
 13. $("form input#submit").attr("value", "En garde!")
+
+B1. $("form input#submit").attr("type", "disabled")
