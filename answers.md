@@ -3,3 +3,4 @@
 2. $("h1.highlight").text("Spot the Dog")
 3. $("#employment .info-title").text("Travel")
 4. $("#time-travel").parent().remove()
+5. $("body").css("background", "blue")
