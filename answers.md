@@ -7,3 +7,4 @@
 6. $(".highlight").css("background-color", "yellow")
 7. $("h1").css("font-family", "monospace")
 8. $(".action-icon-bg").css("background-color", "orange")
+9. $("form input#name").attr("placeholder", "identify yourself")
