@@ -6,3 +6,4 @@
 5. $("body").css("background", "blue")
 6. $(".highlight").css("background-color", "yellow")
 7. $("h1").css("font-family", "monospace")
+8. $(".action-icon-bg").css("background-color", "orange")
