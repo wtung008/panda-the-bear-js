@@ -4,3 +4,4 @@
 3. $("#employment .info-title").text("Travel")
 4. $("#time-travel").parent().remove()
 5. $("body").css("background", "blue")
+6. $(".highlight").css("background-color", "yellow")
