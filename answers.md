@@ -1,3 +1,4 @@
+<!-- Hacking Panda the Bear's Resume -->
 1a. $(".profile-image").attr("src", "http://lorempixel.com/output/animals-q-c-400-400-9.jpg")
 1b. $("#left-image img").attr("src", "http://lorempixel.com/output/nature-q-c-325-225-8.jpg")
 2. $("h1.highlight").text("Spot the Dog")
@@ -15,3 +16,7 @@
 
 B1. $("form input#submit").attr("type", "disabled")
 B2. $("span.bio-info-value.bio-info-name, span.bio-info-value.bio-info-phone, span.bio-info-value.bio-info-location").empty()
+
+
+<!-- Adding Elements to the DOM -->
+1. $("#right-image img").clone().insertAfter("form")
