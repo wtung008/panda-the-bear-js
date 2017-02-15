@@ -20,3 +20,9 @@ B2. $("span.bio-info-value.bio-info-name, span.bio-info-value.bio-info-phone, sp
 
 <!-- Adding Elements to the DOM -->
 1. $("#right-image img").clone().insertAfter("form")
+
+2.
+
+for (var i = 0; i < 9; i++) {
+  $("#right-image img").clone().insertAfter("form")
+}
