@@ -23,6 +23,18 @@ B2. $("span.bio-info-value.bio-info-name, span.bio-info-value.bio-info-phone, sp
 
 2.
 
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 10; i++) {
   $("#right-image img").clone().insertAfter("form")
 }
+
+3.
+
+var listItem = document.createElement('li');
+var leftSpan = document.createElement('span');
+var lastUpdated = document.createTextNode('Page last updated on');
+var date = Date.now().toString();
+var dateUpdated = document.createTextNode(date);
+
+$("ul.bio-info").last().append(listItem, leftSpan.appendChild(lastUpdated), listItem.appendChild(leftSpan), leftSpan.appendChild(dateUpdated), listItem.appendChild(leftSpan))
+
+<!-- $("li.bio-info-item").last().append(leftSpan.appendChild(lastUpdated), listItem.appendChild(leftSpan), leftSpan.appendChild(dateUpdated), listItem.appendChild(leftSpan)) -->
