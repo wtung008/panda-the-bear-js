@@ -14,3 +14,4 @@
 13. $("form input#submit").attr("value", "En garde!")
 
 B1. $("form input#submit").attr("type", "disabled")
+B2. $("span.bio-info-value.bio-info-name, span.bio-info-value.bio-info-phone, span.bio-info-value.bio-info-location").empty()
